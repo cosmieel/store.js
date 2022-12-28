@@ -1,5 +1,5 @@
 {
-  "name": "store",
+  "name": "@regru/store-js",
   "version": "2.0.12",
   "description": "A localStorage wrapper for all browsers without using cookies or flash. Uses localStorage, globalStorage, and userData behavior under the hood",
   "main": "dist/store.legacy.js",
@@ -46,7 +46,10 @@
       "print": false
     },
     "rules": {
-      "comma-dangle": ["error", "only-multiline"],
+      "comma-dangle": [
+        "error",
+        "only-multiline"
+      ],
       "no-unused-vars": [
         "error",
         {
@@ -73,6 +76,11 @@
     "node": "*"
   },
   "directories": {
-    "lib": "."
-  }
+    "lib": ".",
+    "test": "tests"
+  },
+  "keywords": [
+    "web",
+    "front-end"
+  ]
 }
